@@ -22,6 +22,9 @@
   - CigarGold
   - GoldPersonalAI
   - FolderBlack
+  - FolderHamster
+  - FolderMime
+  - FolderPun
   - BarFlask
   - NewtonCradle
   - ClothingNeckLGBTPin
@@ -204,6 +207,8 @@
   loadouts:
   - LacedShoes
   - LeatherShoes
+  - CommandBlackHeels
+  - CommandBlueHeels
   - CaptainJumpBoots
 
 - type: loadoutGroup
@@ -257,6 +262,8 @@
   - LacedShoes
   - LeatherShoes
   - HoPShoesWhite
+  - CommandBlackHeels
+  - CommandBlueHeels
 
 - type: loadoutGroup
   id: HoPOuterClothing
@@ -304,7 +311,7 @@
   - GreyJumpskirt
   - AncientJumpsuit
   - RainbowJumpsuit
-  - GraySpaceCadetJumpsuit
+  - GraytiderSpaceJumpsuit
 
 - type: loadoutGroup
   id: PassengerFace
@@ -334,6 +341,7 @@
   minLimit: 0
   loadouts:
   - Mantle
+  - GreyCloak
 
 - type: loadoutGroup
   id: PassengerOuterClothing
@@ -1332,6 +1340,7 @@
   loadouts:
   - ScientistJumpsuit
   - ScientistJumpskirt
+  - SpaceScienceJumpsuit
   - RoboticistJumpsuit
   - RoboticistJumpskirt
   - ScientistJumpsuitFormal
@@ -1408,6 +1417,7 @@
   loadouts:
   - HeadofSecurityHead
   - HeadofSecurityBeret
+  - HeadofSecurityPatrolCap
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1419,6 +1429,8 @@
   - HeadofSecurityJumpskirtGrey
   - HeadofSecurityTurtleneck
   - HeadofSecurityTurtleneckSkirt
+  - HeadofSecurityProfessionalJumpsuit
+  - HeadofSecurityProfessionalJumpskirt
   - HeadofSecurityFormalSuit
   - HeadofSecurityFormalSkirt
 
@@ -1456,11 +1468,12 @@
   - CommandVeteranDuffel
 
 - type: loadoutGroup
-  id: HeadofSecurityMask
-  name: loadout-group-head-of-security-mask
-  minLimit: 0
+  id: HeadofSecurityBelt
+  name: loadout-group-head-of-security-belt
   loadouts:
-  - HeadofSecurityMask
+  - SecurityBelt
+  - SecurityWebbing
+  - HeadofSecurityShoulderHolster
 
 - type: loadoutGroup
   id: WardenHead
@@ -1639,6 +1652,7 @@
   minLimit: 0
   loadouts:
   - BrigmedicBeret
+  - BrigmedicCap
 
 - type: loadoutGroup
   id: BrigmedicNeck
@@ -1793,6 +1807,7 @@
   loadouts:
   - MedicalDoctorJumpsuit
   - MedicalDoctorJumpskirt
+  - SpaceMedicalJumpsuit
   - SeniorPhysicianJumpsuit
   - SeniorPhysicianJumpskirt
   - MedicalBlueScrubs
@@ -1874,6 +1889,7 @@
   loadouts:
   - ChemistJumpsuit
   - ChemistJumpskirt
+  - SpaceChemistJumpsuit
 
 - type: loadoutGroup
   id: ChemistNeck
