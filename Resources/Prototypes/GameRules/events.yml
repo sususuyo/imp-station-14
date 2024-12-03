@@ -35,11 +35,14 @@
     - id: LoneOpsSpawn
     - id: ChangelingAwakening
     - id: GoblinStowawaysEvent # imp
+    - id: GoblinCastawaysEvent # imp
 
 - type: entityTable
   id: SleeperlessAntagEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
+    - !type:NestedSelector # DeltaV
+      tableId: BasicAntagEventsTableDeltaV
     - id: ClosetSkeleton
     - id: DragonSpawn
     - id: KingRatMigration
@@ -49,6 +52,7 @@
     - id: LoneOpsSpawn
     - id: ChangelingAwakening
     - id: GoblinStowawaysEvent # imp
+    - id: GoblinCastawaysEvent # imp
 
 - type: entity
   id: BaseStationEvent

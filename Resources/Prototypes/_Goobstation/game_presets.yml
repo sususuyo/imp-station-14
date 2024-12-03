@@ -6,6 +6,7 @@
     - changeling
   name: changeling-gamemode-title
   description: changeling-gamemode-description
+  cooldown: 1
   showInVote: false
   rules:
     - Changeling
@@ -14,6 +15,7 @@
     - MeteorSwarmScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
+    - MidpopLimiter
 
 - type: gamePreset
   id: Secretling
